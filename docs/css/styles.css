@@ -12,8 +12,41 @@ img {
 	display: block;
 }
 
-h1{
-	text-align: center;
-	font-size: 10vw;
-	color: #2574A9;	
+.navbar{
+  background-color: #555557;
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	padding: 20px 20px 20px 0px;
+}
+
+a:link{
+	color: #96D3D4; !important;
+}
+
+a:hover {
+	color: #96D3D4;
+	text-decoration: none;
+}
+
+.jumbotron{
+  background-image: url(../images/st-john-rocks.jpg);
+  background-size: cover;
+	height: 400px;
+  margin: 0;
+  position: relative;
+	
+}
+
+.about-text{
+	position: absolute;
+	width: 100%;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+	color: #FCFCF7;
+	font-size: 40px;
 }
