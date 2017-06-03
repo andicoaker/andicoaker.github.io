@@ -45,10 +45,10 @@ a:hover {
 .about-text{
 	position: absolute;
 	width: 100%;
- 	top: 50%;
+ 	top: 55%;
  	left: 50%;
  	transform: translate(-50%, -50%);
-	color: #2b2b2b;
+	color: #000000;
 	/*background: rgba(255, 255, 255, .3);*/
 
 	/*font-size: 40px;*/
