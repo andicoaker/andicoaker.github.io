@@ -50,6 +50,7 @@ a:hover {
 }
 
 .about-text{
+	font-family: 'Playfair Display';
 	position: absolute;
 	width: 100%;
  	top: 55%;
@@ -69,19 +70,20 @@ a:hover {
 }
 
 .media{
-	padding: 50px 100px 50px 100px;
+	padding: 50px 200px 50px 200px;
 }
 
 .media-left{
-	padding-right: 25px;
+	padding-right: 50px;
 }
 
-.brewsmuse-img{
-	width: 200px;
+.portfolio-img{
+	width: 300px;
 }
 
 .media-heading{
 	padding-bottom: 15px;
+	font-family: 'Playfair Display';
 }
 
 hr{
