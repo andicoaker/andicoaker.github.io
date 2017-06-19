@@ -1,5 +1,7 @@
+/****** DOC ******/
+
 #app-container{
-	visibility: hidden;
+	visibility: visible;
 }
 
 * {
@@ -7,14 +9,16 @@
 }
 
 body{
-	font-family: Helvetica;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	color: #555557;
 }
 
 img {
 	width: 100%;
 	display: block;
 }
-
+/****** NAVBAR ******/
 .navbar{
   background-color: #555557;
 }
@@ -34,7 +38,7 @@ a:hover {
 	color: #96D3D4;
 	text-decoration: none;
 }
-
+/****** ABOUT ******/
 .jumbotron{
   background-image: url(../images/CHS-skyline.jpg);
   background-size: cover;
@@ -57,7 +61,29 @@ a:hover {
 	/*font-size: 40px;*/
 }
 
+/****** PORTFOLIO ******/
+
 #portfolio{
-	height: 500px;
-	background-color: #96D3D4;
+	background: linear-gradient(to right, #cad1d1 0%,#cad1d1 40%,#96d3d4 100%);
+	color: #555557;
+}
+
+.media{
+	padding: 50px 100px 50px 100px;
+}
+
+.media-left{
+	padding-right: 25px;
+}
+
+.brewsmuse-img{
+	width: 200px;
+}
+
+.media-heading{
+	padding-bottom: 15px;
+}
+
+hr{
+	margin: 0px;
 }
