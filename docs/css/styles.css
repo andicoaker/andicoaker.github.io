@@ -1,3 +1,6 @@
+#app-container{
+	visibility: hidden;
+}
 
 * {
 	box-sizing: border-box;
