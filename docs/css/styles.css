@@ -9,8 +9,7 @@
 }
 
 body{
-	font-family: 'Playfair Display', serif;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Playfair Display', serif, 'Raleway', sans-serif;
 	color: #555557;
 }
 
@@ -42,24 +41,35 @@ a:hover {
 .jumbotron{
   background-image: url(../images/CHS-skyline.jpg);
   background-size: cover;
-	height: 300px;
+	background-attachment: fixed;
+	height: 600px;
   margin: 0;
   position: relative;
-	opacity: .7;
-
 }
 
-.about-text{
-	font-family: 'Playfair Display';
+.intro-overlay{
 	position: absolute;
+	text-align: center;
 	width: 100%;
- 	top: 55%;
+	height: 600px;
+ 	top: 50%;
  	left: 50%;
  	transform: translate(-50%, -50%);
-	color: #000000;
-	/*background: rgba(255, 255, 255, .3);*/
+	background: rgba(255, 255, 255, .5);
+	text-shadow: 4px 4px 4px rgba(225, 225, 225, .9);
+}
 
-	/*font-size: 40px;*/
+.intro-overlay-text h1{
+	margin-top: 225px;
+	font-family: 'Playfair Display';
+	font-weight: 700;
+	font-size: 75px;
+}
+
+.intro-overlay-text h3{
+	font-family: 'Raleway';
+	font-weight: 500;
+	font-size: 30px;
 }
 
 /****** PORTFOLIO ******/
