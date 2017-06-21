@@ -1,9 +1,7 @@
 /****** DOC ******/
-.construction{
-	visibility: visible;
-}
+
 #app-container{
-	visibility: hidden;
+	/*visibility: hidden;*/
 }
 
 .row{
@@ -24,34 +22,36 @@ body{
 img {
 	width: 100%;
 	display: block;
-	/*margin-left: auto;
-	margin-right: auto;*/
 }
+
 /****** NAVBAR ******/
+
 .navbar{
   background-color: #555557;
 }
-ul{
+.navbar ul{
 	margin: 0;
+	float: right;
 }
 
-li{
+.navbar li{
 	list-style-type: none;
 	display: inline-block;
-	float: right;
 	padding: 20px 20px 20px 0px;
 	font-size: 20px;
 }
 
-a:link{
+.navbar a:link{
 	color: #96D3D4; !important;
 }
 
-a:hover {
+.navbar a:hover {
 	color: #96D3D4;
 	text-decoration: none;
 }
+
 /****** ABOUT ******/
+
 .hero-about{
   background-image: url(../images/tortola-sunset-jump.jpg);
   background-size: cover;
@@ -71,12 +71,12 @@ a:hover {
  	left: 50%;
  	transform: translate(-50%, -50%);
 	color: #555557;
-	background: rgba(255, 255, 255, .5);
+	background: rgba(255, 255, 255, .4);
 	text-shadow: 2px 2px 4px rgba(225, 225, 225, .9);
 }
 
 .hero-overlay h1{
-	margin-top: 300px;
+	margin-top: 250px;
 	font-family: 'Playfair Display';
 	font-weight: 700;
 	font-size: 50px;
@@ -135,8 +135,8 @@ hr{
 /***** CONTACT ******/
 
 #contact{
-	background-color: #FCFCF7;
-	text-align: center;
+	/*background-color: #FCFCF7;
+	text-align: center;*/
 }
 
 .hero-contact{
@@ -164,8 +164,32 @@ hr{
 }
 
 .hero-contact-overlay h1{
-	margin-top: 450px;
+	margin-top: 425px;
 	font-family: 'Playfair Display';
 	font-weight: 700;
 	font-size: 75px;
+}
+
+.hero-contact ul{
+	margin: 0;
+	padding-left: 0;
+	padding-top: 25px;
+	padding-right: 75px;
+	text-align: center;
+}
+
+.hero-contact li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px 0px 20px 100px;
+	font-size: 30px;
+}
+
+.hero-contact a:link{
+	color: #555557; !important;
+}
+
+.hero-contact a:hover {
+	color: #555557;
+	text-decoration: none;
 }
