@@ -1,9 +1,9 @@
 /****** DOC ******/
 .construction{
-	visibility: hidden;
+	visibility: visible;
 }
 #app-container{
-	visibility: visible;
+	visibility: hidden;
 }
 
 .row{
