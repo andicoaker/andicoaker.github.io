@@ -16,7 +16,7 @@
 body{
 	font-family: 'Playfair Display', serif, 'Raleway', sans-serif;
 	color: #555557;
-		background: linear-gradient(to right, #cad1d1 0%,#cad1d1 40%,#96d3d4 100%);
+	background: linear-gradient(to right, #cad1d1 0%,#cad1d1 40%,#96d3d4 100%);
 }
 
 img {
@@ -29,6 +29,15 @@ img {
 .navbar{
   background-color: #555557;
 }
+
+.navbar p{
+	float: left;
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+	font-size: 20px;
+	margin: 0;
+}
+
 .navbar ul{
 	margin: 0;
 	float: right;
@@ -41,7 +50,7 @@ img {
 	font-size: 20px;
 }
 
-.navbar a{
+.navbar p, .navbar a{
 	color: #96D3D4; !important;
 }
 
@@ -50,9 +59,9 @@ img {
 	text-decoration: none;
 }
 
-/****** ABOUT ******/
+/****** INTRO ******/
 
-.hero-about{
+.hero-intro{
   background-image: url(../images/tortola-sunset-jump.jpg);
   background-size: cover;
 	background-attachment: fixed;
@@ -87,14 +96,14 @@ img {
 	font-weight: 500;
 	font-size: 30px;
 }
-/*
-.about-text{
+
+
+/****** ABOUT ******/
+
+#about{
 	background-color: #FCFCF7;
-	text-align: center;
-	font-family: 'Raleway';
-	font-size: 17px;
-	padding-top: 100px;
-}*/
+	padding-top: 50px;
+}
 
 /****** PORTFOLIO ******/
 
@@ -102,7 +111,7 @@ img {
 padding-top: 50PX;
 }
 
-.portfolio-header{
+.portfolio-header, .about-header{
 	padding-left: 200px;
 }
 
@@ -114,7 +123,7 @@ padding-top: 50PX;
 	padding-right: 50px;
 }
 
-.portfolio-img{
+.portfolio-img, .about-img{
 	width: 300px;
 }
 
@@ -164,7 +173,7 @@ hr{
 }
 
 .hero-contact-overlay h1{
-	margin-top: 425px;
+	margin-top: 275px;
 	font-family: 'Playfair Display';
 	font-weight: 700;
 	font-size: 75px;
@@ -190,6 +199,7 @@ hr{
 }
 
 .hero-contact a:hover {
-	color: #96D3D4;
+	color: #FCFCF7;
 	text-decoration: none;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, .9);
 }
