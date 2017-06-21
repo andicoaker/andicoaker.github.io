@@ -112,7 +112,7 @@ padding-top: 50PX;
 }
 
 .portfolio-header, .about-header{
-	padding-left: 200px;
+	padding-left: 100px;
 }
 
 .media{
@@ -121,6 +121,15 @@ padding-top: 50PX;
 
 .media-left{
 	padding-right: 50px;
+}
+
+.brewsmuse{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.brewsmuse .img-right{
+	padding-left: 50px;
 }
 
 .portfolio-img, .about-img{
