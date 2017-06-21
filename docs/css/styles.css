@@ -41,12 +41,12 @@ img {
 	font-size: 20px;
 }
 
-.navbar a:link{
+.navbar a{
 	color: #96D3D4; !important;
 }
 
 .navbar a:hover {
-	color: #96D3D4;
+	color: #FCFCF7;
 	text-decoration: none;
 }
 
@@ -185,11 +185,11 @@ hr{
 	font-size: 30px;
 }
 
-.hero-contact a:link{
+.hero-contact a{
 	color: #555557; !important;
 }
 
 .hero-contact a:hover {
-	color: #555557;
+	color: #96D3D4;
 	text-decoration: none;
 }
