@@ -24,6 +24,10 @@ img {
 	display: block;
 }
 
+.media{
+	padding: 50px 200px 50px 200px;
+}
+
 /****** NAVBAR ******/
 
 .navbar{
@@ -54,7 +58,7 @@ img {
 	color: #96D3D4; !important;
 }
 
-.navbar a:hover {
+.navbar a:hover, .media-body a:hover{
 	color: #FCFCF7;
 	text-decoration: none;
 }
@@ -103,6 +107,15 @@ img {
 #about{
 	background-color: #FCFCF7;
 	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about-img{
+	width: 400px;
+}
+
+.about{
+	padding: 50px 100px 50px 100px;
 }
 
 /****** PORTFOLIO ******/
@@ -113,10 +126,6 @@ padding-top: 50PX;
 
 .portfolio-header, .about-header{
 	padding-left: 100px;
-}
-
-.media{
-	padding: 50px 200px 50px 200px;
 }
 
 .media-left{
@@ -132,7 +141,11 @@ padding-top: 50PX;
 	padding-left: 50px;
 }
 
-.portfolio-img, .about-img{
+.brewsmuse span{
+	text-decoration: underline;
+}
+
+.portfolio-img{
 	width: 300px;
 }
 
