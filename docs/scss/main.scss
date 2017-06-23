@@ -1,0 +1,35 @@
+@import "./imports/about.scss";
+@import "./imports/_contact.scss";
+@import "./imports/_intro.scss";
+@import "./imports/_navbar.scss";
+@import "./imports/_portfolio.scss";
+
+/****** MAIN STYLES ******/
+
+#app-container{
+	/*visibility: hidden;*/
+}
+
+.row{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Playfair Display', serif, 'Raleway', sans-serif;
+	color: #555557;
+	background: linear-gradient(to right, #cad1d1 0%,#cad1d1 40%,#96d3d4 100%);
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.media{
+	padding: 50px 200px 50px 200px;
+}

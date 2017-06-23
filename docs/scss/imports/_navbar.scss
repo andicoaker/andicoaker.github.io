@@ -1,0 +1,32 @@
+.navbar{
+  background-color: #555557;
+}
+
+.navbar p{
+	float: left;
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+	font-size: 20px;
+	margin: 0;
+}
+
+.navbar ul{
+	margin: 0;
+	float: right;
+}
+
+.navbar li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px 20px 20px 0px;
+	font-size: 20px;
+}
+
+.navbar p, .navbar a{
+	color: #96D3D4;
+}
+
+.navbar a:hover, .media-body a:hover{
+	color: #FCFCF7;
+	text-decoration: none;
+}
