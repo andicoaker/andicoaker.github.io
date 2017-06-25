@@ -1,20 +1,3 @@
-@import "./imports/about.scss";
-@import "./imports/_contact.scss";
-@import "./imports/_intro.scss";
-@import "./imports/_navbar.scss";
-@import "./imports/_portfolio.scss";
-
-/****** MAIN STYLES ******/
-
-#app-container{
-	/*visibility: hidden;*/
-}
-
-.row{
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
 * {
 	box-sizing: border-box;
 }
@@ -30,6 +13,17 @@ img {
 	display: block;
 }
 
+.row{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
 .media{
 	padding: 50px 200px 50px 200px;
 }
+
+@import "./imports/_navbar.scss";
+@import "./imports/_intro.scss";
+@import "./imports/about.scss";
+@import "./imports/_portfolio.scss";
+@import "./imports/_contact.scss";
