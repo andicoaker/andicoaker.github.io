@@ -2,7 +2,7 @@
 padding-top: 50PX;
 }
 
-.portfolio-header, .about-header{
+.portfolio-heading_main {
 	padding-left: 100px;
 }
 
@@ -23,9 +23,6 @@ padding-top: 50PX;
 	text-decoration: underline;
 }
 
-.portfolio-img{
-	width: 300px;
-}
 
 .media-heading{
 	padding-bottom: 15px;
@@ -39,4 +36,59 @@ padding-top: 50PX;
 
 hr{
 	margin: 0px;
+}
+// TEST
+
+.col-xs-12{
+  padding: 25px;
+}
+
+.col-sm-6{
+
+}
+
+.portfolio-heading_mobile{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.portfolio-heading{
+  display: none;
+}
+
+.portfolio-text{
+	font-family: 'Raleway';
+	font-size: 17px;
+}
+
+@media screen and (min-width: 768px){
+  .portfolio{
+    padding:25px; 
+  }
+
+  .portfolio-heading_mobile{
+    display: none;
+  }
+
+  .portfolio-heading{
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 25px;
+  	font-family: 'Playfair Display';
+  }
+
+}
+
+@media screen and (min-width: 992px){
+  .portfolio{
+    padding: 50px 100px 50px 100px;
+  }
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+
+
 }

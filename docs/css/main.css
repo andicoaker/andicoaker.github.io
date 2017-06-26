@@ -81,10 +81,6 @@ img {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-.about {
-  padding-left: 100px;
-  padding-right: 100px; }
-
 .col-xs-12 {
   padding: 25px; }
 
@@ -108,10 +104,14 @@ img {
     margin: 0px;
     padding-bottom: 25px;
     font-family: 'Playfair Display'; } }
+@media screen and (min-width: 992px) {
+  #about {
+    padding-left: 100px;
+    padding-right: 100px; } }
 #portfolio {
   padding-top: 50PX; }
 
-.portfolio-header, .about-header {
+.portfolio-heading_main {
   padding-left: 100px; }
 
 .media-left {
@@ -127,9 +127,6 @@ img {
 .brewsmuse span {
   text-decoration: underline; }
 
-.portfolio-img {
-  width: 300px; }
-
 .media-heading {
   padding-bottom: 15px;
   font-family: 'Playfair Display'; }
@@ -141,6 +138,35 @@ img {
 hr {
   margin: 0px; }
 
+.col-xs-12 {
+  padding: 25px; }
+
+.portfolio-heading_mobile {
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.portfolio-heading {
+  display: none; }
+
+.portfolio-text {
+  font-family: 'Raleway';
+  font-size: 17px; }
+
+@media screen and (min-width: 768px) {
+  .portfolio {
+    padding: 25px; }
+
+  .portfolio-heading_mobile {
+    display: none; }
+
+  .portfolio-heading {
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 25px;
+    font-family: 'Playfair Display'; } }
+@media screen and (min-width: 992px) {
+  .portfolio {
+    padding: 50px 100px 50px 100px; } }
 .hero-contact {
   background-image: url(../images/CHS-skyline.jpg);
   background-size: cover;
