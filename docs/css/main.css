@@ -10,34 +10,27 @@ img {
   width: 100%;
   display: block; }
 
+#home {
+  padding: 0px; }
+
 .row {
   padding-right: 0px;
-  padding-left: 0px; }
-
-.media {
-  padding: 50px 200px 50px 200px; }
+  padding-left: 0px;
+  margin: 0px; }
 
 .navbar {
-  background-color: #555557; }
-
-.navbar p {
-  float: left;
-  display: inline-block;
-  padding: 20px 20px 20px 20px;
-  font-size: 20px;
-  margin: 0; }
+  background-color: #555557;
+  border: none; }
 
 .navbar ul {
-  margin: 0;
   float: right; }
 
 .navbar li {
   list-style-type: none;
   display: inline-block;
-  padding: 20px 20px 20px 0px;
   font-size: 20px; }
 
-.navbar p, .navbar a {
+.navbar-brand, .navbar a {
   color: #96D3D4; }
 
 .navbar a:hover, .media-body a:hover {
@@ -111,30 +104,6 @@ img {
 #portfolio {
   padding-top: 50PX; }
 
-.portfolio-heading_main {
-  padding-left: 100px; }
-
-.media-left {
-  padding-right: 50px; }
-
-.brewsmuse {
-  padding-left: 100px;
-  padding-right: 100px; }
-
-.brewsmuse .img-right {
-  padding-left: 50px; }
-
-.brewsmuse span {
-  text-decoration: underline; }
-
-.media-heading {
-  padding-bottom: 15px;
-  font-family: 'Playfair Display'; }
-
-.media-text {
-  font-family: 'Raleway';
-  font-size: 17px; }
-
 hr {
   margin: 0px; }
 
@@ -151,6 +120,9 @@ hr {
 .portfolio-text {
   font-family: 'Raleway';
   font-size: 17px; }
+
+.portfolio-text span {
+  text-decoration: underline; }
 
 @media screen and (min-width: 768px) {
   .portfolio {

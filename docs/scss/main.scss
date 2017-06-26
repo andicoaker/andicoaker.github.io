@@ -13,13 +13,14 @@ img {
 	display: block;
 }
 
+#home{
+  padding: 0px;
+}
+
 .row{
 	padding-right: 0px;
 	padding-left: 0px;
-}
-
-.media{
-	padding: 50px 200px 50px 200px;
+  margin: 0px;
 }
 
 @import "./imports/_navbar.scss";

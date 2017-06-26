@@ -2,49 +2,25 @@
 padding-top: 50PX;
 }
 
-.portfolio-heading_main {
-	padding-left: 100px;
-}
-
-.media-left{
-	padding-right: 50px;
-}
-
-.brewsmuse{
-	padding-left: 100px;
-	padding-right: 100px;
-}
-
-.brewsmuse .img-right{
-	padding-left: 50px;
-}
-
-.brewsmuse span{
-	text-decoration: underline;
-}
-
-
-.media-heading{
-	padding-bottom: 15px;
-	font-family: 'Playfair Display';
-}
-
-.media-text{
-	font-family: 'Raleway';
-	font-size: 17px;
-}
-
 hr{
 	margin: 0px;
 }
-// TEST
+// 
+// .portfolio-heading_main {
+// 	padding-left: 100px;
+// }
+//
+// .brewsmuse{
+// 	padding-left: 100px;
+// 	padding-right: 100px;
+// }
+//
+// .brewsmuse .img-right{
+// 	padding-left: 50px;
+// }
 
 .col-xs-12{
   padding: 25px;
-}
-
-.col-sm-6{
-
 }
 
 .portfolio-heading_mobile{
@@ -61,9 +37,13 @@ hr{
 	font-size: 17px;
 }
 
+.portfolio-text span{
+	text-decoration: underline;
+}
+
 @media screen and (min-width: 768px){
   .portfolio{
-    padding:25px; 
+    padding:25px;
   }
 
   .portfolio-heading_mobile{
