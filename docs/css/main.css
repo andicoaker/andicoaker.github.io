@@ -22,18 +22,14 @@ img {
   background-color: #555557;
   border: none; }
 
-.navbar ul {
-  float: right; }
-
-.navbar li {
-  list-style-type: none;
+.navbar-brand, .navbar li {
   display: inline-block;
   font-size: 20px; }
 
-.navbar-brand, .navbar a {
+.navbar-nav, .navbar a {
   color: #96D3D4; }
 
-.navbar a:hover, .media-body a:hover {
+.navbar a:hover, .portfolio a:hover {
   color: #FCFCF7;
   text-decoration: none; }
 
@@ -139,6 +135,10 @@ hr {
 @media screen and (min-width: 992px) {
   .portfolio {
     padding: 50px 100px 50px 100px; } }
+.jumbotron {
+  margin: 0px;
+  padding: 0px; }
+
 .hero-contact {
   background-image: url(../images/CHS-skyline.jpg);
   background-size: cover;
