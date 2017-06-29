@@ -10,37 +10,26 @@ img {
   width: 100%;
   display: block; }
 
+#home {
+  padding: 0px; }
+
 .row {
   padding-right: 0px;
-  padding-left: 0px; }
-
-.media {
-  padding: 50px 200px 50px 200px; }
+  padding-left: 0px;
+  margin: 0px; }
 
 .navbar {
-  background-color: #555557; }
+  background-color: #555557;
+  border: none; }
 
-.navbar p {
-  float: left;
+.navbar-brand, .navbar li {
   display: inline-block;
-  padding: 20px 20px 20px 20px;
-  font-size: 20px;
-  margin: 0; }
-
-.navbar ul {
-  margin: 0;
-  float: right; }
-
-.navbar li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 20px 20px 20px 0px;
   font-size: 20px; }
 
-.navbar p, .navbar a {
+.navbar-nav, .navbar a {
   color: #96D3D4; }
 
-.navbar a:hover, .media-body a:hover {
+.navbar a:hover, .portfolio a:hover {
   color: #FCFCF7;
   text-decoration: none; }
 
@@ -48,7 +37,7 @@ img {
   background-image: url(../images/tortola-sunset-jump.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 700px;
+  height: 800px;
   width: 100%;
   margin: 0;
   position: relative; }
@@ -57,7 +46,7 @@ img {
   position: absolute;
   text-align: center;
   width: 100%;
-  height: 700px;
+  height: 800px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -81,50 +70,80 @@ img {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-.about-img {
-  width: 400px; }
+.col-xs-12 {
+  padding: 25px; }
 
-.about {
-  padding: 50px 100px 50px 100px; }
+.about-heading_mobile {
+  padding-left: 25px;
+  padding-right: 25px; }
 
-#portfolio {
-  padding-top: 50PX; }
+.about-heading {
+  display: none; }
 
-.portfolio-header, .about-header {
-  padding-left: 100px; }
-
-.media-left {
-  padding-right: 50px; }
-
-.brewsmuse {
-  padding-left: 100px;
-  padding-right: 100px; }
-
-.brewsmuse .img-right {
-  padding-left: 50px; }
-
-.brewsmuse span {
-  text-decoration: underline; }
-
-.portfolio-img {
-  width: 300px; }
-
-.media-heading {
-  padding-bottom: 15px;
-  font-family: 'Playfair Display'; }
-
-.media-text {
+.about-text {
   font-family: 'Raleway';
   font-size: 17px; }
 
+@media screen and (min-width: 768px) {
+  .about-heading_mobile {
+    display: none; }
+
+  .about-heading {
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 25px;
+    font-family: 'Playfair Display'; } }
+@media screen and (min-width: 992px) {
+  #about {
+    padding-left: 100px;
+    padding-right: 100px; } }
+#portfolio {
+  padding-top: 50PX; }
+
 hr {
   margin: 0px; }
+
+.col-xs-12 {
+  padding: 25px; }
+
+.portfolio-heading_mobile {
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.portfolio-heading {
+  display: none; }
+
+.portfolio-text {
+  font-family: 'Raleway';
+  font-size: 17px; }
+
+.portfolio-text span {
+  text-decoration: underline; }
+
+@media screen and (min-width: 768px) {
+  .portfolio {
+    padding: 25px; }
+
+  .portfolio-heading_mobile {
+    display: none; }
+
+  .portfolio-heading {
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 25px;
+    font-family: 'Playfair Display'; } }
+@media screen and (min-width: 992px) {
+  .portfolio {
+    padding: 50px 100px 50px 100px; } }
+.jumbotron {
+  margin: 0px;
+  padding: 0px; }
 
 .hero-contact {
   background-image: url(../images/CHS-skyline.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 700px;
+  height: 800px;
   width: 100%;
   margin: 0;
   position: relative; }
@@ -133,7 +152,7 @@ hr {
   position: absolute;
   text-align: center;
   width: 100%;
-  height: 700px;
+  height: 800px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

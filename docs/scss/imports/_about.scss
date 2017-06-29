@@ -4,10 +4,50 @@
 	padding-bottom: 50px;
 }
 
-.about-img{
-	width: 400px;
+.col-xs-12{
+  padding: 25px;
 }
 
-.about{
-	padding: 50px 100px 50px 100px;
+.about-heading_mobile{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.about-heading{
+  display: none;
+}
+
+.about-text{
+	font-family: 'Raleway';
+	font-size: 17px;
+}
+
+@media screen and (min-width: 768px){
+
+  .about-heading_mobile{
+    display: none;
+  }
+
+  .about-heading{
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 25px;
+  	font-family: 'Playfair Display';
+  }
+
+}
+
+@media screen and (min-width: 992px){
+  #about{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+
+
 }
